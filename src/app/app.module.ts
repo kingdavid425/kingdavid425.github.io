@@ -7,8 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
 import { SkillsComponent } from './skills/skills.component';
-import { LinksComponent } from './links/links.component';
 import { HomeComponent } from './home/home.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -17,12 +17,12 @@ import { HomeComponent } from './home/home.component';
     ExperienceComponent,
     EducationComponent,
     SkillsComponent,
-    LinksComponent,
     HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
